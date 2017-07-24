@@ -1,0 +1,15 @@
+version: '2'
+
+services:
+
+  chatclient:
+    image: chatclient
+    build:
+      context: ./ChatClient
+      dockerfile: Dockerfile
+
+  chatserver:
+    image: chatserver
+    build:
+      context: ./ChatServer
+      dockerfile: Dockerfile

@@ -1,0 +1,9 @@
+*.suo
+*.user
+bin
+obj
+packages
+/.vs
+/.vs/ProjectSettings.json
+/.vs/slnx.sqlite
+/.vs/VSWorkspaceState.json
